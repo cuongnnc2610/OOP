@@ -121,10 +121,6 @@ int main()
 	cout << "\nDepartment name\t\tNumber of employees\t\tLead";
 	
 	Department* mgmDepartments = mgm.getDepartments();
-	for(int i=1; i<=sizeof(mgmDepartments); i++)
-	{
-		cout << mgmDepartments.getName();
-	}
 	return 0;
 }
 		
