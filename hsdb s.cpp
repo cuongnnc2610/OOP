@@ -36,6 +36,7 @@ int main()
 	point.OffsetPoint(2, 2);
 	point.setXCoordinate(10);
 	cout << point.getXCoordinate();
+	cout << "bla bla bla";
 	return 0;
 }
 
